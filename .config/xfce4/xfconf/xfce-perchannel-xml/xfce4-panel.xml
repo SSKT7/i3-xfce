@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="dark-mode" type="bool" value="true"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=960;y=540"/>
+      <property name="size" type="uint" value="37"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="24"/>
+        <value type="int" value="5"/>
+        <value type="int" value="8"/>
+        <value type="int" value="1"/>
+        <value type="int" value="23"/>
+        <value type="int" value="2"/>
+        <value type="int" value="19"/>
+        <value type="int" value="20"/>
+        <value type="int" value="4"/>
+        <value type="int" value="18"/>
+        <value type="int" value="11"/>
+        <value type="int" value="7"/>
+        <value type="int" value="6"/>
+        <value type="int" value="10"/>
+        <value type="int" value="3"/>
+        <value type="int" value="22"/>
+      </property>
+      <property name="icon-size" type="uint" value="19"/>
+      <property name="length" type="double" value="100"/>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="disable-struts" type="bool" value="true"/>
+      <property name="background-style" type="uint" value="0"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.60392156862745094"/>
+        <value type="double" value="0.59999999999999998"/>
+        <value type="double" value="0.58823529411764708"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="mode" type="uint" value="0"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-3" type="string" value="actions"/>
+    <property name="plugin-4" type="string" value="notification-plugin"/>
+    <property name="plugin-5" type="string" value="applicationsmenu">
+      <property name="button-icon" type="string" value="debian-logo"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “??????” active: ?????? (53%)"/>
+        <value type="string" value="wi-fi network connection “??????” active: ?????? (58%)"/>
+        <value type="string" value="wi-fi network connection “??????” active: ?????? (52%)"/>
+        <value type="string" value="wi-fi network connection “??????” active: ?????? (55%)"/>
+        <value type="string" value="wi-fi network connection “??????” active: ?????? (61%)"/>
+        <value type="string" value="wi-fi network connection “??????” active: ?????? (63%)"/>
+        <value type="string" value="wi-fi network connection “??????” active: ?????? (57%)"/>
+        <value type="string" value="ibus panel"/>
+      </property>
+      <property name="icon-size" type="int" value="0"/>
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="hide-new-items" type="bool" value="false"/>
+      <property name="single-row" type="bool" value="false"/>
+      <property name="symbolic-icons" type="bool" value="false"/>
+      <property name="menu-is-primary" type="bool" value="false"/>
+      <property name="hidden-legacy-items" type="array">
+      </property>
+    </property>
+    <property name="plugin-7" type="string" value="power-manager-plugin"/>
+    <property name="plugin-10" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="firefox.instance10128;firefox.instance14582;firefox.instance1688;firefox.instance2165;firefox.instance2426;firefox.instance2917;firefox.instance3326;firefox.instance7902"/>
+    </property>
+    <property name="plugin-11" type="string" value="weather">
+      <property name="msl" type="int" value="18"/>
+      <property name="timezone" type="string" value="dhaka"/>
+      <property name="offset" type="string" value="+00:00"/>
+      <property name="cache-max-age" type="int" value="172800"/>
+      <property name="power-saving" type="bool" value="true"/>
+      <property name="units" type="empty">
+        <property name="temperature" type="int" value="0"/>
+        <property name="pressure" type="int" value="0"/>
+        <property name="windspeed" type="int" value="0"/>
+        <property name="precipitation" type="int" value="0"/>
+        <property name="altitude" type="int" value="0"/>
+        <property name="apparent-temperature" type="int" value="0"/>
+      </property>
+      <property name="round" type="bool" value="true"/>
+      <property name="single-row" type="bool" value="true"/>
+      <property name="tooltip-style" type="int" value="1"/>
+      <property name="forecast" type="empty">
+        <property name="layout" type="int" value="1"/>
+        <property name="days" type="int" value="5"/>
+      </property>
+      <property name="theme-dir" type="string" value="/usr/share/xfce4/weather/icons/liquid"/>
+      <property name="scrollbox" type="empty">
+        <property name="show" type="bool" value="true"/>
+        <property name="animate" type="bool" value="true"/>
+        <property name="lines" type="int" value="1"/>
+        <property name="color" type="string" value="rgba(0,0,0,0)"/>
+        <property name="use-color" type="bool" value="false"/>
+      </property>
+      <property name="location" type="empty">
+        <property name="name" type="string" value="Dhaka, Bangladesh"/>
+        <property name="latitude" type="string" value="23.727200"/>
+        <property name="longitude" type="string" value="90.409300"/>
+      </property>
+    </property>
+    <property name="plugin-18" type="string" value="screenshooter"/>
+    <property name="plugin-19" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-20" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-22" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-23" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-24" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-1" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+      <property name="miniature-view" type="bool" value="false"/>
+      <property name="numbering" type="bool" value="false"/>
+      <property name="wrap-workspaces" type="bool" value="false"/>
+    </property>
+    <property name="plugin-2" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-8" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+  </property>
+</channel>
